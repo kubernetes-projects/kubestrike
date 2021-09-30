@@ -6,6 +6,6 @@ baremetal:
   workers:
     - ip: 192.168.64.16
   master:
-      ip: 192.168.64.13
+    ip: 192.168.64.13
   username: ubuntu
   keyLocation: /Users/debarshibasak/.ssh/id_rsa

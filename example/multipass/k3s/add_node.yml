@@ -7,4 +7,4 @@ k3s:
 multipass:
   workerCount: 1
   master:
-    - 192.168.64.5  #fetch token from master
+    - 192.168.64.5 #fetch token from master
