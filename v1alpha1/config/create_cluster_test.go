@@ -14,11 +14,11 @@ func TestParsing(t *testing.T) {
 apiVersion: kubestrike.debarshi.github.com/master/v1alpha1
 kind: CreateClusterKind
 provider: Multipass
-multipass: 
+multipass:
   masterCount: 1
   workerCount: 1
-kubeadm: 
-  networking: 
+kubeadm:
+  networking:
     plugin: flannel
     podCidr: 10.233.0.0/16
 `
@@ -37,11 +37,11 @@ kubeadm:
 apiVersion: kubestrike.debarshi.github.com/master/v1alpha1
 kind: CreateClusterKind
 provider: Multipass
-multipass: 
+multipass:
   masterCount: 1
   workerCount: 1
-k3s: 
-  networking: 
+k3s:
+  networking:
     backend: vxlan
     podCidr: 10.233.0.0/16
 `
